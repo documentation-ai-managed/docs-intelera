@@ -1,0 +1,137 @@
+---
+title: Getting Started with Intelera
+description: Set up your account and create your first website project in minutes using Intelera's intuitive interface.
+---
+
+## Prerequisites
+
+Before starting, ensure you have:
+
+- A modern web browser like Chrome or Firefox
+- An active email address for account verification
+- At least 2 GB of free disk space for Mobirise installation
+
+<Callout kind="info">
+  Intelera integrates seamlessly with Mobirise, a no-code website builder. Download it from the official site after account creation.
+</Callout>
+
+## Create Your Intelera Account
+
+Sign up in under 2 minutes to access your dashboard and project tools.
+
+<Steps>
+  <Step title="Visit the Dashboard" icon="monitor">
+    Navigate to `https://app.intelera.ai` and click **Sign Up**.
+  </Step>
+  <Step title="Enter Details" icon="user">
+    Provide your email, create a strong password, and select **Small Business** as your use case.
+  </Step>
+  <Step title="Verify Email" icon="mail">
+    Check your inbox for the verification link and click it to activate your account.
+  </Step>
+  <Step title="Log In" icon="log-in">
+    Return to the dashboard, enter your credentials, and access your workspace.
+  </Step>
+</Steps>
+
+## Download and Install Mobirise
+
+Mobirise powers your Intelera projects with drag-and-drop design.
+
+<Tabs>
+  <Tab title="macOS" icon="apple">
+    Download the installer from `https://mobirise.com/download/macos.dmg`.
+
+    ```bash
+    # Mount the DMG and drag to Applications
+    hdiutil attach mobirise.dmg
+    open /Volumes/Mobirise/Mobirise.app
+    ```
+  </Tab>
+  <Tab title="Windows" icon="monitor">
+    Get the EXE from `https://mobirise.com/download/windows.exe` and run as administrator.
+    
+    ```bash
+    # Via PowerShell (optional)
+    Invoke-WebRequest -Uri "https://mobirise.com/download/windows.exe" -OutFile "Mobirise.exe"
+    .\Mobirise.exe
+    ```
+  </Tab>
+  <Tab title="Linux" icon="linux">
+    Use the AppImage from `https://mobirise.com/download/linux.AppImage`.
+    
+    ```bash
+    chmod +x Mobirise.AppImage
+    ./Mobirise.AppImage
+    ```
+  </Tab>
+</Tabs>
+
+<Callout kind="tip">
+  Link your Intelera account in Mobirise via **Extensions > Intelera Integration** after installation.
+</Callout>
+
+## Launch Your First Website Project
+
+Create a professional site for your small business quickly.
+
+<Steps>
+  <Step title="Open Mobirise" icon="play">
+    Launch Mobirise and select **New Site > Business Template**.
+  </Step>
+  <Step title="Connect Intelera" icon="link">
+    Go to **Extensions**, search for Intelera, and authenticate with your `YOUR_API_KEY` from the dashboard.
+  </Step>
+  <Step title="Customize Blocks" icon="edit-3">
+    Drag blocks for hero, services, and contact. Preview with **Preview** button.
+  </Step>
+  <Step title="Publish to Intelera" icon="upload-cloud">
+    Click **Publish > Intelera Hosting** to deploy live at `https://your-site.intelera.ai`.
+  </Step>
+</Steps>
+
+<CodeGroup tabs="HTML Preview">
+  ```html
+  <!-- Sample hero block after customization -->
+  <section class="hero">
+    <h1>Welcome to Your Business</h1>
+    <p>Built with Intelera and Mobirise.</p>
+    <button>Get Started</button>
+  </section>
+  ```
+</CodeGroup>
+
+## Basic Dashboard Navigation
+
+Once logged in, explore these key areas:
+
+<Columns cols={2}>
+  <Card title="Projects" icon="folder" href="/projects">
+    Manage all your sites and templates.
+  </Card>
+  <Card title="Templates" icon="layout" href="/templates">
+    Browse 100+ responsive designs.
+  </Card>
+  <Card title="Hosting" icon="globe" href="/hosting">
+    Deploy and monitor live sites.
+  </Card>
+  <Card title="Extensions" icon="puzzle" href="/extensions">
+    Add AI tools and integrations.
+  </Card>
+</Columns>
+
+## Next Steps
+
+<Expandable title="Advanced Customization" default-open="false">
+  Explore custom CSS and JavaScript blocks in Mobirise for unique designs.
+  
+  ```css
+  /* Add to site styles */
+  .hero {
+    background: linear-gradient(135deg, #3B82F6, #1E40AF);
+    color: white;
+  }
+  ```
+</Expandable>
+
+Congratulations! You've launched your first Intelera-powered website. Dive into [templates](/templates) or [hosting options](/hosting) next.

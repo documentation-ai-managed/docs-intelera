@@ -1,0 +1,131 @@
+---
+title: Changelog
+description: Track the latest updates, improvements, and new features released in Intelera.
+---
+
+## Recent Updates
+
+Stay informed about Intelera's evolution. You receive automatic updates when using the platform, but check here for detailed release notes, migration guides, and new capabilities.
+
+<Callout kind="info">
+  Subscribe to our RSS feed or join the Intelera Discord for real-time notifications on new releases.
+</Callout>
+
+<Update label="2024-10-15" description="v1.2.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Enhanced template library with 50+ new designs optimized for small businesses, including e-commerce and portfolio layouts.
+- Drag-and-drop AI suggestions for customizing Mobirise blocks directly in the editor.
+
+## Improvements
+
+- Faster preview rendering, reducing load times by 40%.
+- Better integration with Mobirise 6.x for seamless export workflows.
+
+## Bug Fixes
+
+- Resolved issues with responsive breakpoints on tablet devices.
+- Fixed template import errors from external Mobirise projects.
+
+</Update>
+
+<Update label="2024-09-20" description="v1.1.0" tags={["feature", "bugfix"]}>
+
+## New Features
+
+- Mobile responsiveness wizard that auto-adjusts layouts across devices.
+- One-click publish to custom domains with SSL certificate generation.
+
+## Improvements
+
+- Updated UI with dark mode support for extended editing sessions.
+
+## Bug Fixes
+
+- Corrected canvas zoom glitches during template editing.
+- Patched export failures for sites with embedded videos.
+
+</Update>
+
+<Update label="2024-08-10" description="v1.0.0" tags={["feature", "breaking"]}>
+
+## Initial Release
+
+- Core platform launch with full Mobirise integration for no-code website building.
+- Visual editor, template gallery, and hosting deployment tools.
+- Basic analytics dashboard for tracking visitor metrics.
+
+## Breaking Changes
+
+- Initial setup requires Mobirise 5.0+; older versions need upgrade.
+
+</Update>
+
+## Upgrading to the Latest Version
+
+Follow these steps to ensure smooth updates in your Intelera projects.
+
+<Steps>
+  <Step title="Backup Projects" icon="database">
+
+    Export your sites from the dashboard.
+
+````bash
+# From Intelera CLI (install via npm)
+npm install -g @intelera/cli
+intelera export --project my-site
+````
+
+  </Step>
+  <Step title="Update Application" icon="download">
+
+    Refresh your browser or reinstall the desktop app.
+
+    <Tabs>
+      <Tab title="Web" icon="globe">
+        Clear cache and reload at `https://app.intelera.ai`.
+      </Tab>
+      <Tab title="Desktop" icon="monitor">
+````bash
+# macOS with Mobirise
+brew upgrade intelera-mobirise
+````
+      </Tab>
+    </Tabs>
+
+  </Step>
+  <Step title="Test Changes" icon="check-circle">
+
+    Preview a template from the new library and deploy a test site.
+
+  </Step>
+</Steps>
+
+## Quick Links
+
+<Columns cols={3}>
+  <Card title="Quickstart" icon="book-open" href="/quickstart">
+    Get started with Intelera in minutes.
+  </Card>
+  <Card title="Templates Guide" icon="layout" href="/templates">
+    Explore the enhanced library.
+  </Card>
+  <Card title="Mobirise Integration" icon="code" href="/mobirise">
+    Seamless workflow setup.
+  </Card>
+</Columns>
+
+<Expandable title="Older Versions" default-open="false">
+
+Review changes from v0.9.x and earlier:
+
+- **v0.9.5 (2024-07-15)**: Fixed preview pane lag; tags={["bugfix"]}
+
+For full history, visit our [GitHub releases](https://github.com/intelera/releases).
+
+</Expandable>
+
+<Callout kind="tip">
+  Found a bug? Submit it via the feedback form in your dashboard to help shape future releases.
+</Callout>
